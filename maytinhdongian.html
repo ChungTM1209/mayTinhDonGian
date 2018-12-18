@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form name="myForm">
+    <input type="text" name="number" id="show">
+    <br/>
+    <input type="button" name="so1" id="so1" value="1" onclick="showMe(this.value)">
+    <input type="button" name="so2" id="so2" value="2" onclick="showMe(this.value)">
+    <input type="button" name="so3" id="so3" value="3" onclick="showMe(this.value)">
+    <input type="button" name="cong" id="cong" value="+" onclick="showMe(this.value)">
+    <br/>
+    <input type="button" name="so4" id="so4" value="4" onclick="showMe(this.value)">
+    <input type="button" name="so5" id="so5" value="5" onclick="showMe(this.value)">
+    <input type="button" name="so6" id="so6" value="6" onclick="showMe(this.value)">
+    <input type="button" name="tru" id="tru" value="-" onclick="showMe(this.value)">
+    <br/>
+    <input type="button" name="so7" id="so7" value="7" onclick="showMe(this.value)">
+    <input type="button" name="so8" id="so8" value="8" onclick="showMe(this.value)">
+    <input type="button" name="so9" id="so9" value="9" onclick="showMe(this.value)">
+    <input type="button" name="nhan" id="nhan" value="*" onclick="showMe(this.value)">
+    <br/>
+    <button type="reset" name="reset">C</button>
+    <input type="button" name="so0" id="so0" value="0" onclick="showMe(this.value)">
+    <input type="button" name="bang" id="bang" value="=" onclick="show.value=eval(show.value)">
+    <input type="button" name="chia" id="chia" value="/" onclick="showMe(this.value)">
+
+</form>
+<script>
+    function showMe(n) {
+        show.value = show.value + n;
+
+    }
+</script>
+</body>
+</html>
